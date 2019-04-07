@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="vendors/css/grid.css">
+  <link rel="stylesheet" href="vendors/css/normalize.css" type="text/css">
+  <link rel="stylesheet" href="resources/css/personal-form.css"type="text/css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <title>Personal Form</title>
+</head>
+<body>
+  <section class="section-form">
+    <div class="row">
+      <h2 class="form-title">My Personal Form</h2>
+    </div>
+    <div class="row">
+      <form action="#" method="post" class="personal-form">
+        <ol class="center">
+          <li>
+            <h3>Personal Details</h3>
+              <div class="row center">
+                <!--  column 1,  row 1 -->
+                  <div class="col span-1-of-4 ">
+                    <label for="fname">First Name <abbr class="necessary-field" title="required">*</abbr></label>
+                  </div><!-- ends-->
+                  <!--  column 2,  row 1 -->
+                  <div class="col span-1-of-4 ">
+                    <input type="text" name="fname" placeholder="Your Name" required>
+                  </div><!-- ends-->
+
+                  <!--  column 3,  row 1 -->
+                  <div class="col span-1-of-4 ">
+                    <label for="lname">Last Name <abbr class="necessary-field" title="required">*</abbr></label>
+                  </div><!-- ends-->
+                  <!--  column 4,  row 1 -->
+                  <div class="col span-1-of-4 ">
+                    <input type="text" name="lname" placeholder="Sirname" required>
+                  </div><!-- ends-->
+                </div><!-- row 1 ends-->
+
+                  <!-- row 2 -->
+                <div class="row center">
+                  <div class="col span-1-of-4">
+                    <label for="father">Father's Name <abbr class="necessary-field" title="required">*</abbr></label>
+                  </div>
+                  <div class="col span-2-of-4 extra-space">
+                    <input type="text" name="fatherName" placeholder="Father's Name" required>
+                  </div>
+                </div><!-- row 2 ends -->
+                <!-- row 3 -->
+                <div class="row center">
+                  <div class="col span-1-of-4">
+                    <label>D.O.B <abbr class="necessary-field" title="required">*</abbr></label>
+                  </div>
+                  <div class="col span-1-of-4 extra-space">
+                    <input type="date" name="birthdate">
+                  </div>
+                </div><!-- row 3 ends -->
+                  <!-- row 4 -->
+                <div class="row center">
+                  <div class="col span-1-of-4">
+                    <label for="number">PhoneNo<abbr class="necessary-field" title="required">*</abbr></label>
+                  </div>
+                  <div class="col span-1-of-4 extra-space">
+                    <input type="tel" name="number" placeholder="Mobile no." required>
+                  </div>
+                </div><!-- row 4 ends -->
+                  <!-- row 5 -->
+                <div class="row center">
+                  <div class="col span-1-of-4">
+                    <label for="email">Email <span>(Optional)</span></label>
+                  </div>
+                  <div class="col span-2-of-4 extra-space">
+                    <input type="email" name="email" placeholder="example@example.com" required>
+                  </div>
+                </div><!-- row 5 ends -->
+                  <!-- row 6 -->
+                <div class="row center">
+                  <div class="col span-1-of-4">
+                    <label for="gender">Gender <abbr class="necessary-field" title="required">*</abbr>&nbsp</label>
+                  </div>
+                  <div class="col span-2-of-4 extra-space">
+                    <lable>
+                      <input type="checkbox" class="radio" value="1" name="gender"> Male &nbsp;
+                    </lable><br>
+                    <label>
+                      <input type="checkbox" class="radio" value="1" name="gender"> Female &nbsp;
+                    </label><br>
+                    <label>
+                      <input type="checkbox" class="radio" value="1" name="gender"> Not to Disclose.
+                    </label><br>
+                  </div>
+                </div><!-- row 6 ends -->
+                  <!-- row 7 -->
+                <div class="row center">
+                  <div class="col span-1-of-4">
+                    <label for="address">Address <abbr class="necessary-field" title="required">*</abbr></label>
+                  </div>
+                  <div class="col span-2-of-4 extra-space">
+                    <input type="text" name="address" placeholder="Resdential Address" required>
+                  </div>
+                </div><!-- row 7 ends -->
+                <!-- row 8 -->
+                <div class="row center">
+                  <div class="col span-1-of-4">
+                    <label>Status <span>(Optional)</span></label>
+                  </div>
+                  <div class="col span-2-of-4 extra-space">
+                    <input type="radio" name="status" value="Married">&nbsp;Married &nbsp;
+                    <input type="radio" name="status" value="Bachlor">&nbsp;Bachelor
+                  </div>
+                </div><!-- row 8 ends -->
+                <!-- row-9 -->
+                <div class="row center">
+                   <div class="col span-1-of-4">
+                       <label for="state">State <abbr class="necessary-field" title="required">*</abbr></label>
+                   </div>
+                   <div class="col span-2-of-4 extra-space">
+                       <select name="state" id="state">
+                           <option value="none" selected>Select</option>
+                           <option value="AndhraPradesh">Andhra Pradesh</option>
+                           <option value="ArunachalPradesh">Arunachal Pradesh</option>
+                           <option value="Bihar">Bihar</option>
+                           <option value="Chhattisgarh">Chhattisgarh</option>
+                           <option value="Delhi">Delhi</option>
+                           <option value="Kashmir">Jammu and Kashmir</option>
+                           <option value="Jharkhand">Jharkhand</option>
+                           <option value="Kerala">Kerala</option>
+                           <option value="Nagaland">Nagaland</option>
+                       </select>
+                   </div>
+                 </div><!-- row-9 ends-->
+                 <!-- row 10 -->
+               <div class="row center">
+                 <div class="col span-1-of-4">
+                   <label for="pin">Pin code <abbr class="necessary-field" title="required">*</abbr></label>
+                 </div>
+                 <div class="col span-1-of-4 extra-space">
+                   <input type="text" name="pin" placeholder="eg. 110041" required>
+                 </div>
+               </div><!-- row 10 ends -->
+           </li>
+           <li>
+             <h3>Educationl Details</h3>
+             <!-- row-11 -->
+             <div class="row center">
+                <div class="col span-1-of-4">
+                    <label for="university">University <abbr class="necessary-field" title="required">*</abbr></label>
+                </div>
+                <div class="col span-2-of-4 extra-space">
+                    <select name="University" id="state">
+                        <option value="none" selected>Select</option>
+                        <option value="University1">University - 1</option>
+                        <option value="University2 ">University - 2 </option>
+                        <option value="University3 ">University - 3</option>
+                        <option value="University4 ">University - 4</option>
+                        <option value="University5 ">University - 5</option>
+                        <option value="University6 ">University - 6</option>
+                    </select>
+                </div>
+              </div><!-- row-11 ends-->
+              <!-- row-12 -->
+              <div class="row center">
+                 <div class="col span-1-of-4">
+                     <label for="college">College <abbr class="necessary-field" title="required">*</abbr></label>
+                 </div>
+                 <div class="col span-2-of-4 extra-space">
+                     <select name="college" id="state">
+                         <option value="none" selected>Select</option>
+                         <option value="College1">College - 1</option>
+                         <option value="College2 ">College - 2 </option>
+                         <option value="College3 ">College - 3</option>
+                         <option value="College4 ">College - 4</option>
+                         <option value="College5 ">College - 5</option>
+                         <option value="College6 ">College - 6</option>
+                     </select>
+                 </div>
+               </div><!-- row-12 ends-->
+               <!-- row 13 -->
+             <div class="row center">
+               <div class="col span-1-of-4">
+                 <label for="branch">Branch <abbr class="necessary-field" title="required">*</abbr></label>
+               </div>
+               <div class="col span-2-of-4 extra-space">
+                 <lable>
+                   <input type="checkbox" class="radio" value="cse" name="branch"> CSE &nbsp;<br>
+                 </lable>
+                 <label>
+                   <input type="checkbox" class="radio" value="ME" name="branch"> ME &nbsp;<br>
+                 </label>
+                 <label>
+                   <input type="checkbox" class="radio" value="IT" name="branch"> IT.<br>
+                 </label>
+               </div>
+             </div><!-- row 13 ends -->
+               <!-- row-14 -->
+               <div class="row center">
+                 <!-- col 1 -->
+                  <div class="col span-1-of-4">
+                      <label for="year">Year <abbr class="necessary-field" title="required">*</abbr></label>
+                  </div><!-- col 1 ends -->
+                  <!-- col 2 -->
+                  <div class="col span-1-of-4 extra-space">
+                      <select name="year" id="state">
+                          <option value="none" selected>Select</option>
+                          <option value="1yr">4th</option>
+                          <option value="2yr ">3rd</option>
+                          <option value="3yr ">2nd</option>
+                          <option value="4yr ">1st</option>
+                      </select>
+                  </div><!-- col 2 ends -->
+                  <!-- col 3 -->
+                  <div class="col span-1-of-4">
+                      <label for="sem">Semester <abbr class="necessary-field" title="required">*</abbr></label>
+                  </div><!-- col 3 ends -->
+                  <!-- col 4 -->
+                  <div class="col span-1-of-4 extra-space">
+                      <select name="sem" id="state">
+                          <option value="none" selected>Select</option>
+                          <option value="8sem ">8th sem</option>
+                          <option value="7sem ">7th sem</option>
+                          <option value="6sem ">6th sem</option>
+                          <option value="5sem ">5th sem</option>
+                          <option value="4sem ">4th sem</option>
+                          <option value="3sem ">3rd sem</option>
+                          <option value="2sem ">2nd sem</option>
+                          <option value="1sem ">1st sem</option>
+                      </select>
+                  </div><!-- col 4 ends -->
+                </div><!-- row-14 ends-->
+           </li>
+         </ol>
+      </form>
+    </div>
+    <div class="note">
+      <span>
+        <Strong>Note:</Strong> This form just include basic Entity And fields but you can add as many as you want. I did not made this form on the base of backend purpose its just front end based and if anyone wants to use to as backend to then just type the value attribute in each input tag.
+      </span>
+    </div>
+    <div class="premotion">
+      <span class="madeby">
+        <storng>Made By: </storng>OneEyeHealer
+      </span>
+    </div>
+  </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="resources/js/form-script.js"></script>
+</body>
+</html>
