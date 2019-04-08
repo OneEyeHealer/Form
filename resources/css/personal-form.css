@@ -77,7 +77,7 @@ select{
 }
 /*--- for select tag ---*/
 .extra-space select{
-   padding-left: 5%;
+   padding-left: 2%;
 }
 span{
   color: #aaa;
