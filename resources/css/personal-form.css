@@ -68,12 +68,16 @@ select{
   border: 1px solid #ddd;
 }
 /*---  extra Size of input field for other than names ---*/
-.extra-space input[type = text],.extra-space input[type = email],.extra-space input[type = date],.extra-space input[type = tel],.extra-space select{
+.extra-space input[type = text],.extra-space input[type = email],.extra-space input[type = date],.extra-space input[type = tel]{
   width:100%;
   background-color: #e1e1e1;
   outline: 0;
   padding-left: 5%;
   margin-left: 10px;
+}
+/*--- for select tag ---*/
+.extra-space select{
+   padding-left: 5%;
 }
 span{
   color: #aaa;
