@@ -75,10 +75,6 @@ select{
   padding-left: 5%;
   margin-left: 10px;
 }
-/*--- for select tag ---*/
-.extra-space select{
-   padding-left: 5px;
-}
 span{
   color: #aaa;
 }
